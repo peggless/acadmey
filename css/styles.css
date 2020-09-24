@@ -1,0 +1,380 @@
+body{
+    margin: 0;
+}
+
+h1, 
+p, 
+h3{
+    color: rgb(92, 90, 90);
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 64px;
+    
+}
+
+.logo{
+    margin-left: 24px;
+}
+
+.nav a{
+    color: rgb(92, 90, 90);
+    margin-right: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.colmar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1.5px;
+}
+
+.colmar .academy{
+    color: gray;
+}
+
+/* banner */
+.bannerimage{
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+
+}
+
+.banner{
+    background-color: lightgray;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.learncontainer{
+    width: 30%;
+}
+
+button{
+    width: 90%;
+    height: auto;
+    border-width: 0px 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(92, 90, 90);
+    color: white;
+}
+
+/*subbanner*/
+
+.subbanner{
+    display: flex;
+    flex-direction: row;
+}
+
+.subbanner img{
+    width: 100%;
+}
+
+.picquote{
+    width: 60%;
+    margin: 32px 24px 0px 24px;
+}
+
+.subbannerimg img{
+    width: 100%;
+}
+
+.quote h1{
+    margin: 32px 0px 0px 0px;
+}
+
+.quote p{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.informationcontainer{
+    margin-top: 2px;
+    padding-top: 13px;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    border-left: 1px solid lightgray;
+}
+
+.orientation,
+.campus,
+.guest{
+    display: flex;
+    flex-direction: row;
+    margin: 1px;
+    align-items: center;
+}
+
+.informationcontainer img{
+    width: 35%;
+    margin: 16px 16px 16px 15px;
+}
+
+.orientation{
+    border-bottom: 1px solid lightgray;
+}
+
+.campus{
+    border-top: 1px solid lightgray;
+}
+
+.guest{
+    background-color: lightgray;
+}
+
+.informationcontainer h3{
+    margin: 0px;
+}
+
+.informationcontainer p{
+    margin: 8px 0px;
+}
+
+/*startlearning*/
+
+.startlearning{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-bottom: 16px;
+    background-color: lightgray;
+}
+
+#learning h1{
+    margin: 32px 0px 16px 0px;
+}
+
+.class{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    background-color: white;
+    margin: 16px;
+}
+
+.class img{
+    height: auto;
+    width: 100%;
+}
+
+.class h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+.class p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+}
+
+.class .content{
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
+
+.top,
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+/*thesis*/
+
+.thesiscontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+#thesis{
+    text-align: center;
+    margin: 32px 0px;
+}
+
+.thesiscontent{
+    display: flex;
+    flex-direction: row;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0px 24px 32px 24px;
+}
+
+.contentcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.fisma,
+.nowandthen{
+    display: flex;
+    flex-direction: row;
+}
+
+.fisma{
+    background-color: lightgrey;
+}
+
+.contentcontainer img{
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+.fisma #about{
+    width: 65%;
+}
+
+.video h3{
+    margin: 24px 0px 8px 0px;
+}
+
+.video p{
+    margin: 0px;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+footer p{
+    margin-left: 23px;
+}
+
+/*media*/
+
+@media only screen and (max-width: 600px){
+    .colmar h3{
+        display: none;
+    }
+    .text{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .nav{
+        display: contents;
+    }
+    .nav img{
+        margin: 16px;
+    }
+    .nav a{
+        margin: 0px;
+    }
+    .banner{
+        flex-direction: column;
+        padding-bottom: 32px;
+    }
+    .bannerimage{
+        margin: 0px 0px 32px 0px;
+        width: 100%;
+    }
+    .learncontainer{
+        width: 100%;
+        display: flex;
+    }
+    .learntext{
+        margin-left: 16px;
+    }
+    .learntext h1{
+        margin-top: 0px 0px 31px 0px;
+    }
+    .learntext p{
+        margin-bottom: 24px;
+    }
+    .picquote{
+        display: none;
+    }
+    .informationcontainer{
+        width: 100%;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .orientation,
+    .campus,
+    .guest{
+        flex-direction: column;
+        border: none;
+        background-color: white;
+        margin: 16px;
+        margin-bottom: 48px;
+    }
+    .informationcontainer img{
+        width: 100%;
+        margin-top: 0px;
+    }
+    #discription{
+        width: 100%;
+    }
+    .startlearning{
+        background-color: white;
+        padding: 0px;
+    }
+    .top{
+        flex-direction: column;
+    }
+    .bottom{
+        flex-direction: column;
+    }
+    .classes{
+        width: 100%;
+    }
+    .class{
+        width: auto;
+        background-color: lightgrey;
+        margin: 4px 16px;
+    }
+    .class h3{
+        margin-bottom: 24px;
+    }
+    .thesiscontent{
+        display: block;
+    }
+    .video{
+        width: 100%;
+        margin: 0px;
+    }
+
+}
+
+@media only screen and (min-width: 600px){
+    .nav img{
+        display: none;
+    }
+    .pic{
+        display: none;
+    }
+}
